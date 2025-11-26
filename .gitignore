@@ -1,0 +1,83 @@
+# ========================================
+# Node / Backend Essentials
+# ========================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+package-lock.json
+pnpm-lock.yaml
+
+# ========================================
+# Environment Variables
+# ========================================
+
+.env
+.env.local
+.env.*.local
+
+# ========================================
+# Build Output / Temporary Files
+# ========================================
+
+dist/
+dist-ssr/
+build/
+coverage/
+tmp/
+temp/
+
+# ========================================
+# Logs
+# ========================================
+
+logs/
+*.log
+log.txt
+debug.log
+
+# ========================================
+# Operating System Files
+# ========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux temp files
+*~
+
+# ========================================
+# IDE / Editor Files
+# ========================================
+
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+
+# ========================================
+# Mongoose / MongoDB Local Data
+# ========================================
+
+/data/db/
+
+# ========================================
+# Frontend (Vite / React)
+# ========================================
+
+*.local      # Example: vite.config.local
