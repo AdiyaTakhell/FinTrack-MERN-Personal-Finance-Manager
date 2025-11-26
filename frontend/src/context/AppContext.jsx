@@ -15,7 +15,7 @@ const AppContextProvider = ({ children }) => {
   const [IncomeData, setIncomeData] = useState([]);
   const [token, setToken] = useState(Boolean(cookieStore.get("token")));
 
-  const backend_url = "http://localhost:4000";
+  const backend_url = "https://fintrack-backend-mhx0.onrender.com";
   const utoken = cookieStore.get('token')
 
 

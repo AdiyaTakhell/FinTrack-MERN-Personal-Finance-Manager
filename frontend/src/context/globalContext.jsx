@@ -8,7 +8,7 @@ import { jwtDecode } from "jwt-decode";
 // Create a shared global context for the entire app
 export const AppContext = createContext();
 
-const backend_url = "http://localhost:4000";
+const backend_url = "https://fintrack-backend-mhx0.onrender.com";
 
 // Create a base Axios instance for API calls
 const api = axios.create({
