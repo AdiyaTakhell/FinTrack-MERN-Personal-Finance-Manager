@@ -5,7 +5,7 @@ import { AppContext } from "./context/globalContext.jsx";
 import "react-toastify/dist/ReactToastify.css";
 
 // Components
-import Sidebar from "./components/Sidebar.jsx";
+import Sidebar from "./components/SideBar.jsx";
 import History from "./components/History.jsx";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
 
