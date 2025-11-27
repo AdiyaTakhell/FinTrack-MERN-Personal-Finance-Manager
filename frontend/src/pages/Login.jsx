@@ -54,8 +54,8 @@ const Login = () => {
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-gray-800">Welcome Back</h2>
           <p className="text-gray-500 text-sm mt-2">Please sign in to your account</p>
-        </div>
-        {/* Demo Credentials */}
+
+          {/* Demo Credentials */}
           <div className="mt-4 bg-blue-50 border border-blue-200 rounded-lg p-3 text-sm text-blue-700">
             <p className="font-semibold">Demo Login:</p>
             <p>Email: <span className="font-medium">test@example.com</span></p>
