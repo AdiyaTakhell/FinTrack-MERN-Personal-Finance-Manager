@@ -1,4 +1,4 @@
-#Demo Section
+Demo Section
 https://fintrack-frontend-kf9a.onrender.com/login
 
 # 📊 FinTrack — MERN Personal Finance Manager
@@ -229,3 +229,4 @@ FinTrack-MERN-Personal-Finance-Manager/
 Set CLIENT_URL properly in `.env`.
 
 ---
+
